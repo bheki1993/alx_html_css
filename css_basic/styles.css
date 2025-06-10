@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+
 }
 
 main {
@@ -12,9 +13,16 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  background-color: darkgoldenrod;
+  border:thick;
 }
 
 aside {
   flex: 1;
   overflow-y: auto;
+  background-color: yellowgreen;
+}
+
+footer{
+    background-color: yellow;
 }
